@@ -1,0 +1,56 @@
+/* Container for the form */
+body {
+  background-image: url("./Images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.todo-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Styles for the input fields */
+.todo-container input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.todo-container input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button Styles */
+.todo-container button {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.todo-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Add a bit of spacing between elements */
+.todo-container input,
+.todo-container button {
+  display: block;
+}
